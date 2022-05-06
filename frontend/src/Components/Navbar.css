@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.nav-container {
+    background-color:  #ECDCC9;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    text-align:center;
+    vertical-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+.navbrand {
+
+text-decoration: none;
+}
+
+li, Link {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #4D243D;
+    text-decoration: none;
+    text-align:center;
+    text-decoration: none;
+}
+
+.navlinks, li:hover {
+    color:  #D0A98F;
+    text-decoration: none;
+ }
+
+.navlinks, li {
+    padding: 0px 25px;
+    transition: all 0.3s ease 0s;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.nav-container .logout{
+    display: flex;
+    align-self: center;
+  
+}
+
+.logoutButton {
+    background-image: linear-gradient(#d6b2c1, #D0A98F);
+    border-radius: 4px;
+    border: 0;
+    color:   #4D243D;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 40px;
+    width: 100px;
+    transition: all 0.2s ease-in-out;
+    
+}
