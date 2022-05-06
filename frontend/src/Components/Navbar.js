@@ -9,12 +9,12 @@ function Navbar() {
 
     <div className="navbrand nav-item">
       <Link to="/logIn">
-      <li>src='./images/navbarlogo.png' width="100" alt="logo"</li>
+      <li src='./images/navbarlogo.png' width="100" alt="logo"></li>
       </Link> 
     </div>
 
     <div className="navlinks nav-item">
-      <Link to="/home">
+      <Link to="/">
       <li>HOME</li>
       </Link>
 
@@ -28,6 +28,10 @@ function Navbar() {
       
       <Link to="/updates">
       <li>UPDATES</li>
+      </Link>
+
+      <Link to="/listemployees">
+      <li>EMPLOYEES</li>
       </Link>
 
     </div>

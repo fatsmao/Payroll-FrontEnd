@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+Get Paid Front-End:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+However, no design templates were used. 
 
 ## Available Scripts
 
